@@ -29,8 +29,8 @@ router.post('/', async (req, res)=>{
 
 // Update product
 router.post('/update/:id', async (req, res, next)=>{
-    console.log(req.body)
-    const userId = req.params.id;
+    console.log(req.body);
+    const userId = req.params.id; 
     const title1 = req.body.title;
     const price1 = req.body.price;
     const image1 = req.body.image;
